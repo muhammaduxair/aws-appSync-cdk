@@ -1,0 +1,5 @@
+type Query {
+  hello: String!
+  age: Int!
+  title(name: String!): String!
+}
